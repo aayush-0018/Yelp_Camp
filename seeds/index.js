@@ -4,7 +4,7 @@ const { places, descriptors } = require("./seedHelpers");
 const cities = require("./cities");
 mongoose
   .connect(
-    "mongodb+srv://Aayush0018:ayush9mps@cluster0.ne3b9v4.mongodb.net/YelpCamp?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb+srv://Aayush0018:ayu@cluster0.ne3b9v4.mongodb.net/YelpCamp?retryWrites=true&w=majority&appName=Cluster0",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
